@@ -1,6 +1,9 @@
 ### Hi there, I'm Will! 👋
 
-- 🌱 I’m currently learning HTML and Java.
-- ⚡ Fun fact: I used to be a member of the Google Product Experts program for Chromebooks/ Chrome OS.
-- 🎮 Favorite Games: I'm an avid fan of the Elite: Dangerous series, and love playing alongside with friends in my free time.
-<p align=center><img src="https://user-images.githubusercontent.com/41498073/151676205-53c1eb74-8089-4985-8703-b5bd676b79cb.png" alt="Eta Cassiopeiar Federation" width="250"/></P>
+- 🌱 I’m currently trying to learn Lua and Python.
+- 💪 I have experience writing in HTML, CSS, Java, and a very small amount of C++.
+- 🤖 Former FRC scouting lead, and one of the pilot testers for <a href="https://github.com/FIRSTTeam102/ScoringApp-Serverless">Scoutradioz</a> in 2019.
+- 🎮 Favorite Games: I'm an avid fan of the Elite: Dangerous series, and what some may describe as a GMod addict.
+- 🚀 I love working alongside the amazing senior management team over at <a href="https://gaminglight.com">Gaminglight</a>!
+
+<p align=center><img src="https://community-cdn.frontier.co.uk/elite-dangerous/3.3/wallpapers/Elite_wallpaper_4k_21.jpg" width="1000"/></P>
