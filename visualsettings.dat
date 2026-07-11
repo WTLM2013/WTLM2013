@@ -1,5 +1,12 @@
-# Edited by PristineAccuracy  (Latest Version 6/17/2018)
 # Visual Configuration Table
+#
+#
+# Feel free to edit and redistribute this file as long as the following comment is kept
+# Edited by Cj24 (accuratestudio.com)
+# More information: https://www.modding-forum.com/forums/thread/112-visual-settings-improved-emergency-light-brightness/
+# Version 1.4
+#
+#
 # Platform tunnings:
 # MyValue.x64 x64Value
 # MyValue.xb1 xb1Value
@@ -96,6 +103,21 @@ car.fatinteriorlight.night.emissive.off	0.00
 car.fatinteriorlight.coronaHDR 1.00
 car.fatinteriorlight.coronaSize 1.00
 
+# car.redinteriorlight.color	1.00	0.00	0.00
+car.redinteriorlight.color.red	1.00
+car.redinteriorlight.color.green	0.00
+car.redinteriorlight.color.blue	0.00
+car.redinteriorlight.intensity	1.50
+car.redinteriorlight.radius	2.10
+car.redinteriorlight.innerConeAngle	0.00
+car.redinteriorlight.outerConeAngle	90.00
+car.redinteriorlight.day.emissive.on	0.00
+car.redinteriorlight.night.emissive.on	0.00
+car.redinteriorlight.day.emissive.off	0.00
+car.redinteriorlight.night.emissive.off	0.00
+car.redinteriorlight.coronaHDR 1.00
+car.redinteriorlight.coronaSize 1.00
+
 car.platelight.color.red	        1.00
 car.platelight.color.green	        1.00
 car.platelight.color.blue	        1.00
@@ -126,15 +148,15 @@ car.dashlight.coronaHDR             1.00
 car.dashlight.coronaSize            1.00
 car.dashlight.falloffExp		4
 
-car.doorlight.color.red	            3.00
-car.doorlight.color.green	        0.50
-car.doorlight.color.blue	        0.50
+car.doorlight.color.red	            1.00
+car.doorlight.color.green	        0.85
+car.doorlight.color.blue	        0.95
 car.doorlight.intensity	            0.05
 car.doorlight.radius	            1.10
 car.doorlight.innerConeAngle	    0.00
 car.doorlight.outerConeAngle	    90.00
-car.doorlight.day.emissive.on	    20.00
-car.doorlight.night.emissive.on	    15.00
+car.doorlight.day.emissive.on	    0.00
+car.doorlight.night.emissive.on	    0.00
 car.doorlight.day.emissive.off	    0.00
 car.doorlight.night.emissive.off	0.00
 car.doorlight.coronaHDR             1.00
@@ -161,6 +183,7 @@ car.neon.falloffexponent 128.0
 car.neon.capsuleextent.sides 1.2
 car.neon.capsuleextent.frontback 0.6
 car.neon.clipplaneheight -0.014
+car.neon.bikeclipplaneheight 0.25
 
 car.headlights.angle	-0.7
 car.headlights.split	0.0
@@ -195,9 +218,9 @@ car.headlights.volume.outerVolumeColor.red	0.00
 car.headlights.volume.outerVolumeColor.green	0.00
 car.headlights.volume.outerVolumeColor.blue	0.00
 
-car.coronas.MainFadeRatio	0.26
+car.coronas.MainFadeRatio	0.25
 car.coronas.BeginStart	50.0
-car.coronas.BeginEnd	600.0
+car.coronas.BeginEnd	300.0
 car.coronas.CutoffStart	290.0
 car.coronas.CutoffEnd	300.0
 car.coronas.underwaterFade		0.4
@@ -457,45 +480,48 @@ train.ambientvolume.intensityscaler	2.0
 
 
 
-# Edited by PristineAccuracy (Updated 6/17/2018)
 # emissive bits
-car.headlight.day.emissive.on	        180.00
-car.headlight.night.emissive.on	        105.00
-car.headlight.day.emissive.off   	0.000
-car.headlight.night.emissive.off	0.000
-car.taillight.day.emissive.on	200.0
-car.taillight.night.emissive.on	150.0
-car.taillight.day.emissive.off   	0.00
-car.taillight.night.emissive.off	0.000
-car.indicator.day.emissive.on	250.00
-car.indicator.night.emissive.on	220.00
-car.indicator.day.emissive.off	0.00
-car.indicator.night.emissive.off	0.000
-car.reversinglight.day.emissive.on	35.00
-car.reversinglight.night.emissive.on	15.00
-car.reversinglight.day.emissive.off	0.000
-car.reversinglight.night.emissive.off	0.000
-car.defaultlight.day.emissive.on	6000.00
-car.defaultlight.night.emissive.on	1500.00
-car.defaultlight.day.emissive.off	0.00
-car.defaultlight.night.emissive.off	0.000
-car.brakelight.day.emissive.on	240.00
-car.brakelight.night.emissive.on	180.00
-car.brakelight.day.emissive.off	0.00
-car.brakelight.night.emissive.off	0.000
-car.middlebrakelight.day.emissive.on	210.00
-car.middlebrakelight.night.emissive.on	160.00
-car.middlebrakelight.day.emissive.off	0.00
-car.middlebrakelight.night.emissive.off	0.000
-car.extralight.day.emissive.on   	350.00
-car.extralight.night.emissive.on	160.00
-car.extralight.day.emissive.off 	0.000
-car.extralight.night.emissive.off	0.00
-car.emissiveMultiplier                  2.00
+car.headlight.day.emissive.on	20.00
+car.headlight.night.emissive.on	20.00
+car.headlight.day.emissive.off	0.001
+car.headlight.night.emissive.off	0.001
+car.taillight.day.emissive.on	30.0
+car.taillight.night.emissive.on	30.0
+car.taillight.day.emissive.off	0.001
+car.taillight.night.emissive.off	0.001
+car.indicator.day.emissive.on	500.00
+car.indicator.night.emissive.on	600.00
+car.indicator.day.emissive.off	0.001
+car.indicator.night.emissive.off	0.001
+car.reversinglight.day.emissive.on	20.00
+car.reversinglight.night.emissive.on	20.00
+car.reversinglight.day.emissive.off	0.001
+car.reversinglight.night.emissive.off	0.001
+car.defaultlight.day.emissive.on	1600.0
+car.defaultlight.night.emissive.on	1200.0
+car.defaultlight.day.emissive.off	0.001
+car.defaultlight.night.emissive.off	0.001
+car.brakelight.day.emissive.on	100.00
+car.brakelight.night.emissive.on	100.00
+car.brakelight.day.emissive.off	0.001
+car.brakelight.night.emissive.off	0.001
+car.middlebrakelight.day.emissive.on	50.00
+car.middlebrakelight.night.emissive.on	50.00
+car.middlebrakelight.day.emissive.off	0.001
+car.middlebrakelight.night.emissive.off	0.001
+car.extralight.day.emissive.on	9.00
+car.extralight.night.emissive.on	9.00
+car.extralight.day.emissive.off	0.001
+car.extralight.night.emissive.off	0.001
+car.sirenlight.day.emissive.on		1600.00
+car.sirenlight.night.emissive.on	1200.00
+car.sirenlight.day.emissive.off		0.001
+car.sirenlight.night.emissive.off	0.001
+car.emissiveMultiplier 2.00
 
 # Lod distances for vehicles
-car.lod.distance.high	50.00
-car.lod.distance.low	110.00
+car.lod.distance.high	40.00
+car.lod.distance.low	180.00
 
 # search lights...
 defaultsearchlight.length	100.0
@@ -692,6 +718,21 @@ pedFpslight.fade 20.000
 pedFpslight.shadowFade 15.000
 pedFpslight.specularFade 10.000
 
+pedFootLight.color.red		1.000
+pedFootLight.color.green	1.000
+pedFootLight.color.blue		1.000
+pedFootLight.intensity		6.000
+pedFootLight.radius		0.15
+pedFootLight.capsuleLength	0.100
+pedFootLight.offset.x 		0.15
+pedFootLight.offset.y 		-0.075
+pedFootLight.offset.z		0.000
+pedFootLight.offset.w 		0.000
+pedFootLight.falloffExp		11.000
+pedFootLight.fade 		20.000
+pedFootLight.specularFade 	10.000
+
+
 # Lod distances for peds
 ped.lod.distance.high	25.00
 ped.lod.distance.medium	50.00
@@ -841,10 +882,10 @@ misc.Multiplier.farClipMultiplier	1
 misc.Multiplier.nearFogMultiplier	1
 misc.3dMarkers.FrontLightIntensity	10.00
 misc.3dMarkers.frontLightExponent	32
-# Edited by Bxbugs123
+
 # coronas
-misc.coronas.sizeScaleGlobal					1.6
-misc.coronas.intensityScaleGlobal				1.9
+misc.coronas.sizeScaleGlobal					0.5
+misc.coronas.intensityScaleGlobal				0.5
 misc.coronas.intensityScaleWater				0.5
 misc.coronas.sizeScaleWater						0.5
 misc.coronas.sizeScaleParaboloid				1.0
@@ -1068,9 +1109,9 @@ bloom.threshold.expsoure.diff.min	0.0
 bloom.threshold.expsoure.diff.max	0.0
 bloom.threshold.power			1.0
 
-bloom.blurblendmult.large		0.5
-bloom.blurblendmult.med			2.0
-bloom.blurblendmult.small		1
+bloom.blurblendmult.large		1.0
+bloom.blurblendmult.med			1.5
+bloom.blurblendmult.small		0.8
 
 
 // Dynmaic bake paramaters
@@ -1129,7 +1170,6 @@ misc.brightlight.notdistculled.FadeEnd	110.0
 misc.brightlight.globalIntensity	12.0
 misc.brightlight.railwayItensity	2.5
 misc.brightlight.coronaZBias	1.0
-# E D I T E D    B Y    B X B U G S 1 2 3
 
 // Vehicle Light Night/Day Settings
 vehicle.lights.sunrise			6.5
